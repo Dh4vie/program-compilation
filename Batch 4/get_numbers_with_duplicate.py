@@ -9,8 +9,8 @@ for i in range(10):
 #find numbers with duplicates
 num_with_duplicate = []
 for num in numbers:
-    if numbers.count(num) != 1:
+    if numbers.count(num) > 1:
         num_with_duplicate.append(num)
 
-#print numebrs with duplicates
-print(num_with_duplicate)
+#print numberrs with duplicates
+print(list(num_with_duplicate))
