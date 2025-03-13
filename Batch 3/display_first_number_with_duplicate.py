@@ -13,4 +13,4 @@ for num in numbers:
         num_with_dupe.add(num)
 
 #print the first number of numbers with duplicates
-    print(num)
+        print(num)
