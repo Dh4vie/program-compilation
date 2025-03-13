@@ -8,5 +8,9 @@ for i in range(10):
     numbers.append(num)
 
 #find the first number of numbers with duplicates
+for num in numbers:
+    if num not in num_with_dupe:
+        num_with_dupe.add(num)
 
 #print the first number of numbers with duplicates
+    print(num)
